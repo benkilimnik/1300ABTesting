@@ -3,7 +3,7 @@ html body {
 	background-color: #ecedd5;
 }
 
-header {
+/* header {
 	padding-left: 40px;
 	padding-top: 20px;
 }
@@ -12,7 +12,7 @@ header {
 	justify-content: left;
 	padding-left: 40px;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 20px; 
 }
 
 .vendor-photo {
@@ -28,7 +28,7 @@ header {
 .content-pane {
   padding: 40px;
 }
-
+*/
 .fa-stack[data-count]:after{
   position: absolute;
   right: 0%;
@@ -45,7 +45,7 @@ header {
   font-weight: bold;
   background: white;
   border-style: solid;
-}
+} 
 .fa-circle {
   color: #DF0000;
 }
@@ -53,3 +53,12 @@ header {
 .red-cart {
 	color: #DF0000;
 }
+
+/* col numbers should add up to 12
+first container, then row, then columns for that row
+
+
+In a grid layout, content must be placed inside columns (.col and .col-*) and only columns may be the immediate children of rows (.row). Rows should be placed inside a .container (fixed-width) or .container-fluid (full-width) for proper padding and alignment.
+
+the sum of the grid column numbers within a single row should not be greater than 12.
+*/
